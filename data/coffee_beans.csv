@@ -1,18 +1,18 @@
 purchase_date,roaster,blend_name,roast_level,roast_date,weight_grams,tasting_notes,origin_country,processing_method
 2025-03-07,Attalus,Highgate,Medium,,250.0,Berry; Brown Sugar; Milk Chocolate,Guatemala; Ethiopia,Washed
 2025-03-19,Insight,El Cimarron,Dark,2025-02-24,340.0,Cranberry; Milk Chocolate; Caramel,Guatemala,Washed
-2025-03-26,Chloe Caphe,96b's liberica project,Medium,,340.0,Herbal; Dry Fruit; Black Licorice; low acidity,Huong Hoa; Quang Tri; Vietnam,Washed; Sun Dried
+2025-03-26,Chloe Ca Phe,96b's liberica project,Medium,,340.0,Herbal; Dry Fruit; Black Licorice; Low Acidity,Huong Hoa; Quang Tri; Vietnam,Washed; Sun Dried
 2025-04-13,Verve,Sermon,Medium,,340.0,Blueberry Pie; Cocoa; Candied Pecan,Ethiopia; South America,Washed
 2025-04-24,Naysayer,El Socorro,Medium,2025-03-31,227.0,Mango; Butterscotch; Molasses,Guatemala Palencia,Washed
 2025-04-30,Flying M,Signature Blend,Dark,,340.0,Nutty; Caramel,,
 2025-05-03,Hydrangea,Wanja Kersa,Light,,227.0,Watermelon; Yellow Peach; Floral,Ethiopia,Natural
 2025-05-05,Mothership,Supernova,Medium,,340.0,Dark chocolate; Toffee; Hazelnut,,
-2025-05-16,Equator,Tigerwalk Espresso,Medium,,297.0,Cherry; Key Lime; Dark Chocolate,,
+2025-05-16,Equator,Tigerwalk Espresso,Medium,,340.0,Cherry; Key Lime; Dark Chocolate,,
 2025-05-27,Little Wolf,Daniel Mauricio Bolanos,Medium,,226.0,Sugarcane; Cherry; Candy-like,Colombia,
-2025-06-15,Attalus,Bloom Again,Espresso,2025-06-10,250.0,citrus; red berry; dark chocolate,Colombia; Ethiopia,Washed; Natural
+2025-06-15,Attalus,Bloom Again,Espresso,2025-06-10,250.0,Citrus; Red Berry; Dark Chocolate,Colombia; Ethiopia,Washed; Natural
 2025-07-06,Alpen Sierra,French,Dark,,340.0,Smoky; Sweet; Intense,Colombia; Guatemala; Sumatra,Washed; Wet-hulled; Sun Dried
 2025-07-29,Stumptown,Holler Mtn,Medium,2025-05-08,340.0,Creamy; Caramel; Hazelnut,,
-2025-07-31,Dorothea,Kayon Mountain Farm,Medium,,340.0,Apple butter; Nutmeg; Red plum,Ethiopia Guji,
+2025-07-31,Dorothea,Kayon Mountain Farm,Medium,,340.0,Apple Butter; Nutmeg; Red Plum,Ethiopia Guji,
 2025-08-07,Groundwork,Round Midnight,Dark,,283.0,Toasted Marshmallow; Cocoa,Arabica,
 2025-08-14,Highwire,The Core,Light,2025-07-23,340.0,Ripe; Big; Caramel,,
 2025-08-21,Chromatic,Keynote,Medium,2025-06-30,340.0,Caramel; Fudge,,
@@ -20,9 +20,18 @@ purchase_date,roaster,blend_name,roast_level,roast_date,weight_grams,tasting_not
 2025-09-09,Bluebottle,Espresso,Medium,,340.0,Chocolate; Nougat; Brown Sugar,,
 2025-09-14,Pachamama,Machu Picchu,Vienna,,283.0,Rich; Caramel; Chocolate,Santa Teresa; Peru,
 2025-09-24,Mae,La Joya,Medium,,284.0,Marzipan; Milk Chocolate; Berries,Guatemala,Washed
-2025-10-11,Attalus,Spooky Season,Medium,2025-09-29,250.0,Boo berry; Gummy worms; Dark chocolate,Colombia; Ethiopia,Washed
+2025-10-11,Attalus,Spooky Season,Medium,2025-09-29,250.0,Boo Berry; Gummy Worms; Dark Chocolate,Colombia; Ethiopia,Washed
 2025-10-17,Chamberlain,Fancy Mouse,Espresso,,283.0,Caramel; Dark Chocolate; Roasted Peanuts,Peru; Sumatra; Papua New Guinea,
 2025-12-07,Anchor and Tree,Honduran Amyris,Medium,2025-11-01,340.0,Brown Sugar; Orange; Honey,Honduras,
 2025-12-18,Pachamama,Sunrise,Light,,283.0,Crisp; Lime; Honeydew,Americas; Ethiopia,
-2026-01-03,Hydrangea,Monteblanco Pink Bourbon,Light,,227.0,Pink bubblegum; Starfruit; Lemongrass,Colombia,Washed
+2026-01-03,Hydrangea,Monteblanco Pink Bourbon,Light,,227.0,Pink Bubblegum; Starfruit; Lemongrass,Colombia,Washed
 2026-02-09,Verve,Sermon,Medium,2025-12-16,340.0,Blueberry Pie; Cocoa; Candied Pecan,East Africa; Latin America,Washed
+2026-02-19,Equator,Tigerwalk Espresso,Medium,2026-01-16,340.0,Cherry; Key Lime; Dark Chocolate,Central America; South America,
+2026-03-03,Chocolate Fish,Cerro San Luis,Medium,2026-02-12,340.0,Toffee; Pear; Syrupy,Costa Rica,Honey
+2026-03-03,Insight,Grupo Terruno - Nayarita,Medium,2026-01-05,340.0,Straberry; Stone Fruit; Chocolate; Caramel,Mexico,Natural; Sun Dried
+2026-04-02,Verve,Swiss Water Decaf,Medium,2026-01-15,340.0,Almond; Honey; Cola,Columbia,Washed
+2026-04-02,Stumptown,Holler Mtn,Medium,2026-01-17,340.0,Creamy; Caramel,,
+2026-04-06,Peerless,Ethiopia Mystic Lion,Light,,283.5,Honey; Wild Blueberry; Rose Hips,Ethiopia,
+2026-04-12,Chloe Ca Phe,Coffea Liberica,Mdium,2026-02-26,340.0,Jack fruit; Napa Valley Cabernet Sauvignon,Vietnam,Anaerobic; Natural
+2026-05-18,Attalus,Highgate,Medium,2026-03-30,250.0,Berry; Brown Sugar; Milk Chocolate,Guatemala; Ethiopia,Washed
+2026-05-24,Blue Bottle,Three Africas,Medium,2026-04-30,340.0,Golden Raisin; Winey Blueberry; Lemon Zest,Ethiopia; Central Africa,Washed; Natural
