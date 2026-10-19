@@ -2,9 +2,7 @@ import os
 import dash
 import dash_bootstrap_components as dbc
 from dash import html, dcc
-from src.db.build_db import setup_db_from_csv
 
-setup_db_from_csv()
 app = dash.Dash(
     __name__,
     use_pages=True,

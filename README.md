@@ -9,25 +9,24 @@ Dashboard for monitoring coffee purchase metrics and trends.
 3. Access the app at `http://127.0.0.1:8050`
 
 ## Data sources
-- coffee_canary.db (SQLite)
-- CSV fallback
+- `data/coffee_beans.csv` — coffee purchases
+- `data/coffee_roasters.csv` — roaster locations
 
 ## Project structure
 ```
 coffee-canary/
 ├── bin/                        # Build and run scripts
-├── data/                       # CSV and .db data files
+├── data/                       # CSV data files
 └── src/
     ├── assets/                 # CSS and static assets
     │   └── images/             # Image assets
-    ├── db/                     # Database handlers
     ├── pages/                  # Web app pages
     │   ├── brew_tools.py       # Coffee brewing equipment
     │   ├── coffee_beans.py     # Purchase trends and metrics dashboard
     │   └── index.py            # Home page
     └── utils/
-    │   ├── data_helpers.py     # Dataframe loading and processing
-    │   ├── db.py               # Database connection and queries
+    │   ├── columns.py          # CSV column name constants
+    │   ├── data_helpers.py     # CSV loading into DataFrames
     │   ├── google_maps_api.py  # Google Maps API integration
     │   └── plots.py            # Plotting functions
     │── app.py                  # Main application

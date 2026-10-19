@@ -2,7 +2,7 @@ import dash_leaflet as dl
 import plotly.express as px
 import pandas as pd
 
-from ..db.schema import (
+from .columns import (
     BEANS_COL_PURCHASE_DATE,
     BEANS_COL_ROASTER,
     BEANS_COL_BLEND_NAME,
@@ -41,7 +41,7 @@ def make_roaster_distribution(beans_df: pd.DataFrame, roasters_df: pd.DataFrame)
     merged['Location'] = merged[ROASTERS_COL_CITY] + ', ' + merged[ROASTERS_COL_STATE]
 
     return px.bar(
-        merged,
+        merged[:10],
         x='Roaster',
         y='Count',
         hover_data={'Location': True},
@@ -63,7 +63,9 @@ def make_roast_level_pie(beans_df: pd.DataFrame):
         names='Roast Level',
         values='Count',
         title='Roast Level Proportions',
-        hole=0.4
+        hole=0.4,
+        # color_discrete_sequence=px.colors.qualitative.Plotly
+
     )
     fig.update_traces(textposition='inside', textinfo='percent+label')
     return fig
