@@ -1,5 +1,9 @@
-# Coffee Canary
-Dashboard for monitoring coffee purchase metrics and trends.
+# Baseline Brew
+Dashboard for monitoring my coffee purchase trends.
+
+Built with Python, Plotly Dash, and Pandas, web service hosted on Render.com.
+
+[https://baseline-brew.apelayo.com](https://baseline-brew.apelayo.com)
 
 ## Run (Local dev, no Docker)
 1. Copy `.env.example` to `.env` and fill values.
@@ -14,7 +18,7 @@ Dashboard for monitoring coffee purchase metrics and trends.
 
 ## Project structure
 ```
-coffee-canary/
+baseline-brew/
 ├── bin/                        # Build and run scripts
 ├── data/                       # CSV data files
 └── src/

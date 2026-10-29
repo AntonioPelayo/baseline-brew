@@ -7,7 +7,7 @@ app = dash.Dash(
     __name__,
     use_pages=True,
 )
-app.title = "Coffee Canary"
+app.title = "Baseline Brew"
 server = app.server
 
 navbar = html.Nav([
